@@ -72,6 +72,7 @@ function IndexHeader() {
         <div className="category category-absolute my-icon">
           <i className="fa fa-linkedin " />
           <i className="fa fa-github " />
+          <i className="fa fa-facebook" />
           <i className="fa fa-instagram " />
           <i className="fa fa-youtube " />
           <i className="fa fa-spotify " />

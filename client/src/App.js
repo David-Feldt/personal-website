@@ -4,6 +4,7 @@ import Main from "./homepage"
 import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import IndexNavbar from "./IndexNavbar";
 import IndexHeader from "./IndexHeader";
+import IndexFooter from "./IndexFooter";
 import NewNavbar from "./newNavbar"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./assets/css/paper-kit.css";
@@ -29,6 +30,7 @@ function App() {
       </Switch>
         {/* <Home /> */}
     </BrowserRouter>
+    <IndexFooter />
    </>
   );
 }

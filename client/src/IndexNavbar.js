@@ -62,8 +62,6 @@ function IndexNavbar() {
       window.removeEventListener("scroll", updateNavbarColor);
     };
   });
-  console.log(navbarCollapse);
-  console.log("HELLLOOO");
   return (
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
@@ -91,6 +89,14 @@ function IndexNavbar() {
           className="justify-content-end"
         >
           <Nav>
+          <NavItem>
+              <NavLink
+                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
+                target="_blank"
+              >
+                <i className="nc-icon nc-hat-3" /> Education
+              </NavLink>
+            </NavItem>
             <NavItem>
               <NavLink
                 href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
@@ -108,9 +114,11 @@ function IndexNavbar() {
               </NavLink>
             </NavItem>
             <NavDropdown title={<><i className="nc-icon nc-book-bookmark" /> Other</>} id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Photography</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Artwork</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Blog Posts</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">My Lists</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Contact</NavDropdown.Item>
            </NavDropdown>
             <NavItem>
               <Button
