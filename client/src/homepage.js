@@ -8,7 +8,7 @@ function Main(){
     return(
     <>
     <div className="main">
-      <div class="section section-nude">
+      <div class="section section-lightblue">
         <Container>
           {/* <!-- WORK --> */}
           <Work />
@@ -21,7 +21,7 @@ function Main(){
         <Projects />
         </Container>
       </div>
-      <div class="section section-nude">
+      <div class="section section-lightpurple">
         <Container>
         {/* <!-- other --> */}
         <Education />

@@ -17,12 +17,31 @@
 
 */
 /*eslint-disable*/
-import React from "react";
+import React , { useState, useEffect } from "react";
 
 // reactstrap components
 import { Container , Row, Col} from "react-bootstrap";
 
 // core components
+function Typer({ textToType, delay, loop }) {
+  const [text, setText] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
+  useEffect(() => {
+    if (currentIndex < textToType.length) {
+      setTimeout(() => {
+        setText(text + textToType[currentIndex]);
+
+        setCurrentIndex(currentIndex + 1);
+      }, delay);
+    } else if (loop) {
+      setText("");
+
+      setCurrentIndex(0);
+    }
+  }, [currentIndex]);
+  return <span>{text}</span>;
+}
+
 
 function IndexHeader() {
   return (
@@ -35,12 +54,11 @@ function IndexHeader() {
         }}
       >
         <div className="filter" />
-        <div className="content-center">
-          <Container>
+          <Container className="content-center">
+          <div className="content-center">
             <div className="title-brand">
               <h1 className="presentation-title">David Feldt</h1>
             </div>
-            
             <Row>
             <Col className="ml-auto mr-auto" lg="6" >
             <div className="codeBox-outside">
@@ -55,13 +73,16 @@ function IndexHeader() {
                 <span className="b"> MECHATRONICS ENGINEER </span>
                 <span className="y">/header/about </span>
                 <br /> 
-                $ Student at the University of Waterloo studying mechatronics engineering. Interests in iot, machine learning and robotics. Experience with web development, arduino, and CAD. 
+                $ <Typer textToType="Student at the University of Waterloo studying mechatronics engineering. Interests in iot, machine learning and robotics. Experience with web development, arduino, and CAD." 
+                        delay={50} 
+                        loop={false} />
               </code>
               </div>
             </div>
             </Col>
-          </Row>          </Container>
+          </Row>
         </div>
+        </Container>          
         <div
           className="moving-clouds"
           // style={{
