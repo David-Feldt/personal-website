@@ -23,6 +23,12 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+.card-header{
+  border-radius: 12px 12px 0 0 !important;
+}
+
+
+
 .fa-linkedin:hover{
   color: #0e76a8;
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
@@ -86,10 +92,16 @@ html {
   border-radius: 16px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
 
+.project-thumbnail{
+  height: 150px;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgb(124, 124, 124);
+}
 .education-thumbnail{
-  height: 100px ;
-  width: 175px;
-  background-color: blue;
+  height: 120px ;
+  width: 200px;
+  background-color: rgb(124, 124, 124);
   background-position: center center;
   background-size: cover;
   border-radius: 8px;
@@ -4422,7 +4434,7 @@ License - nucleoapp.com/license/
     margin: 0;
     padding: 30px 0 0; }
   .card .card-body {
-    padding: 20px; }
+    padding: 7.5px 20px 0 20px; }
     .card .card-body .card-title {
       margin: 5px 0 0 0; }
     .card .card-body .card-category ~ .card-title {
@@ -4430,7 +4442,7 @@ License - nucleoapp.com/license/
   .card .card-text {
     font-size: 15px;
     color: #66615b;
-    padding-bottom: 15px; }
+    }
   .card h6 {
     font-size: 12px;
     margin: 0; }
