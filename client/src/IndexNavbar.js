@@ -68,7 +68,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="#home"
+            href="/#home"
             >
             David Feldt
           </NavbarBrand>
@@ -90,21 +90,21 @@ function IndexNavbar() {
           <Nav>
             <NavItem>
               <NavLink
-                href="#Work"
+                href="/#Work"
               >
                 <i className="nc-icon nc-briefcase-24" /> Work
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="#Projects"
+                href="/#Projects"
               >
                 <i className="nc-icon nc-settings" /> Projects
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="#Education"
+                href="/#Education"
               >
                 <i className="nc-icon nc-hat-3" /> Education
               </NavLink>

@@ -4,6 +4,7 @@ import Main from "./homepage"
 import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import IndexNavbar from "./IndexNavbar";
 import IndexHeader from "./IndexHeader";
+import BasicHeader from "./ProfilePageHeader";
 import IndexFooter from "./IndexFooter";
 import NewNavbar from "./newNavbar"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,9 +23,23 @@ function App() {
     <IndexNavbar />
     <BrowserRouter>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <IndexHeader/>
           <Main />
+        </Route>
+        <Route path="/404">
+        <div
+        className="page-header section-dark"
+        style={{
+          backgroundImage:
+            "url(" + require("./assets/img/lost-2.jpg").default + ")",
+        }}
+        >
+        <div className="title-brand">
+        <h1><b>404</b></h1>
+        <h3><b>Page Not Found</b></h3>
+        </div>
+        </div>
         </Route>
         <Redirect to="/" />
       </Switch>
