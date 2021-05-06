@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Container } from "react-bootstrap";
+import Education from "./Education";
 
 function Main(){
 
@@ -9,11 +10,7 @@ function Main(){
       <div class="section section-nude">
         <Container>
           {/* <!-- WORK --> */}
-          <div class="" >
-            <h5 class="card-title">Add cool display</h5>
-            <p class="card-text">Simple for now</p>
-            <a href="#" class="btn btn-primary">link to</a>
-          </div>
+          <Education />
         </Container>              
       </div>
       <div class="section section-dark">

@@ -31,11 +31,54 @@
      font-size: 1.0em;
   }
 
+.education-thumbnail{
+  height: 100px ;
+  width: 175px;
+  background-color: blue;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ultra-align{
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.text-ultra-align{
+  top:50%;
+  position:relative;
+}
+
+.title-section{
+  font-weight: 400;
+}
 .my-icon{
   font-size: 2.25em;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.5em;
+}
+
+.icon-div{
+  width: 80%;
+  height: 80%;
+  vertical-align: center;
+}
+
+.icon-logo{
+  max-height: 100%;
+  max-width: 70%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .codeBox-header{
@@ -2332,7 +2375,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     display: none; }
   .offline-doc .navbar.navbar-transparent .navbar-brand,
   .offline-doc .navbar.navbar-transparent .collapse .navbar-nav .nav-link {
-    color: #FFFFFF !important; }
+    color: #FFFCF5 !important; }
 
 .offline-doc .footer {
   position: absolute;
@@ -3074,7 +3117,7 @@ License - nucleoapp.com/license/
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   padding: 0;
-  background: #FFFFFF;
+  background: #FFFCF5;
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15); }
   .navbar .navbar-brand {
     font-weight: 600;
@@ -3160,7 +3203,7 @@ License - nucleoapp.com/license/
     .navbar.navbar-transparent .navbar-nav .nav-item .nav-link {
       color: #FFFFFF; }
     .navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
-      background: #FFFFFF !important; }
+      background: #FFFCF5 !important; }
   .navbar .logo-container {
     margin-top: 5px; }
     .navbar .logo-container .logo {
