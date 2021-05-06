@@ -23,6 +23,56 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+.fa-linkedin:hover{
+  color: #0e76a8;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  font-weight: 600;
+}
+.fa-github:hover{
+  color: #333;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  font-weight: 600;
+
+}
+.fa-facebook:hover{
+  color: #3b5998;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  font-weight: 600;
+
+}
+.fa-instagram:hover{
+  color: #C13584;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  font-weight: 600;
+
+}
+.fa-spotify:hover{
+  color: #1DB954;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  font-weight: 600;
+
+}
+.fa-youtube:hover{
+  color: #FF0000a8;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  font-weight: 600;
+}
+
+ .blinking{
+  animation:blinkingText 1.0s infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ @keyframes blinkingText{
+  0%{     color: inherit;    }
+  49%{    color: inherit; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: inherit;    }
+}
 
   code {
      color: #f8f8f2;

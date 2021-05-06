@@ -69,7 +69,6 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            target="_blank"     
             >
             David Feldt
           </NavbarBrand>
@@ -89,28 +88,25 @@ function IndexNavbar() {
           className="justify-content-end"
         >
           <Nav>
-          <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
-                target="_blank"
-              >
-                <i className="nc-icon nc-hat-3" /> Education
-              </NavLink>
-            </NavItem>
             <NavItem>
               <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
-                target="_blank"
+                href="#Work"
               >
                 <i className="nc-icon nc-briefcase-24" /> Work
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
-                target="_blank"
+                href="#Projects"
               >
                 <i className="nc-icon nc-settings" /> Projects
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                href="#Education"
+              >
+                <i className="nc-icon nc-hat-3" /> Education
               </NavLink>
             </NavItem>
             <NavDropdown title={<><i className="nc-icon nc-book-bookmark" /> Other</>} id="basic-nav-dropdown">

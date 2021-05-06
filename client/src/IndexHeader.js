@@ -75,7 +75,7 @@ function IndexHeader() {
                 <br /> 
                 $ <Typer textToType="Student at the University of Waterloo studying mechatronics engineering. Interests in iot, machine learning and robotics. Experience with web development, arduino, and CAD." 
                         delay={50} 
-                        loop={false} />
+                        loop={false} /><span class="blinking">|</span>
               </code>
               </div>
             </div>
