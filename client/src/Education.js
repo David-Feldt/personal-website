@@ -5,8 +5,7 @@ function Education(){
     return(
         <div class="" >
         <h1 className='title title-section'>EDUCATION</h1>
-        <hr />
-        <Row className="p-4">
+        <Row className="p-2 my-4 row-entry">
             <Col xs={3}>
                 <img 
                 className="icon-logo align-items-center"
@@ -26,7 +25,7 @@ function Education(){
                 <h6 className="text-ultra-align">More &nbsp; <i className="nc-icon nc-minimal-right"> </i></h6>
             </Col>
         </Row>
-        <Row className='p-4'>
+        <Row className="my-4 p-2 row-entry">
             <Col xs={3}>
                 <img 
                 className="icon-logo align-items-center"
@@ -46,6 +45,7 @@ function Education(){
                 <h6 className="text-ultra-align">More &nbsp; <i className="nc-icon nc-minimal-right"> </i></h6>
             </Col>
         </Row>
+        <br />
         <h5><b>Other Courses</b></h5>
         <br />
         <Row>

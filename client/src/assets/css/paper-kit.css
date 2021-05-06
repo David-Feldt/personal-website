@@ -31,6 +31,11 @@
      font-size: 1.0em;
   }
 
+.row-entry{
+  background-color:#e6e6e64b;
+  border-radius: 16px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+
 .education-thumbnail{
   height: 100px ;
   width: 175px;
