@@ -52,6 +52,7 @@ function IndexHeader() {
           backgroundImage:
             "url(" + require("./assets/img/lake-picture.jpg").default + ")",
         }}
+        id="home"
       >
         <div className="filter" />
           <Container className="content-center">
@@ -91,12 +92,12 @@ function IndexHeader() {
           // }}
         />
         <div className="category category-absolute my-icon">
-          <i className="fa fa-linkedin " />
-          <i className="fa fa-github " />
-          <i className="fa fa-facebook" />
-          <i className="fa fa-instagram " />
-          <i className="fa fa-youtube " />
-          <i className="fa fa-spotify " />
+          <a href="https://www.linkedin.com/in/david--feldt/"><i className="fa fa-linkedin " /></a>
+          <a href="https://github.com/David-Feldt"><i className="fa fa-github " /></a>
+          <a href="https://www.facebook.com/david.feldt.71"><i className="fa fa-facebook" /></a>
+          <a href="https://www.instagram.com/davids_hobbies/"><i className="fa fa-instagram " /></a>
+          <a href="https://www.youtube.com/channel/UCC-w1gonicQ723YnfomRobg/featured"><i className="fa fa-youtube " /></a>
+          <a href="https://open.spotify.com/user/ozwrfiq5lf5cimom3tt27r4v9?si=164254063f474d08"><i className="fa fa-spotify " /></a>
         </div>
       </div>
     </>

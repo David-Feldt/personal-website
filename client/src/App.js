@@ -23,7 +23,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/">
-          <IndexHeader />
+          <IndexHeader/>
           <Main />
         </Route>
         <Redirect to="/" />

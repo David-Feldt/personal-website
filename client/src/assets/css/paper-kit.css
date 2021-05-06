@@ -29,7 +29,7 @@
 
 
 
-.fa-linkedin:hover{
+/* .fa-linkedin:hover{
   color: #0e76a8;
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
   font-weight: 600;
@@ -62,7 +62,7 @@
   color: #FF0000a8;
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
   font-weight: 600;
-}
+} */
 
  .blinking{
   animation:blinkingText 1.0s infinite;
@@ -127,6 +127,14 @@ html {
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.5em;
+}
+
+.fa:hover{
+  color: #ffffff;
+}
+
+.fa{
+  color:rgba(255, 255, 255, 0.7);
 }
 
 .icon-div{
@@ -3501,7 +3509,7 @@ License - nucleoapp.com/license/
     text-decoration: none; }
   .dropdown-menu .dropdown-item:hover,
   .dropdown-menu .dropdown-item:focus {
-    background-color: #66615B; }
+    background-color: #0a141b; }
   .dropdown-menu.dropdown-primary .dropdown-item:hover,
   .dropdown-menu.dropdown-primary .dropdown-item:focus {
     background-color: #6dd3d6; }

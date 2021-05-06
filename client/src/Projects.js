@@ -16,7 +16,7 @@ function Projects(){
                         }}
                      ></Card.Header>
                     <Card.Body>
-                    <Badge pill variant="primary">Primary</Badge>
+                    <small><Badge pill variant="primary">Primary</Badge></small>
                     <Card.Text>
                     <h6>Project Title</h6>
                     <h6><small>This is a wider card with supporting text below as a natural lead-in </small></h6>
