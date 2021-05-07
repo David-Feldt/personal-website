@@ -4,11 +4,13 @@ import Main from "./homepage"
 import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import IndexNavbar from "./IndexNavbar";
 import IndexHeader from "./IndexHeader";
-import BasicHeader from "./ProfilePageHeader";
+import BasicHeader from "./BasicHeader";
 import IndexFooter from "./IndexFooter";
-import NewNavbar from "./newNavbar"
+import NewNavbar from "./newNavbar";
+import Other from "./Other"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./assets/css/paper-kit.css";
+import PageNotFound from './PageNotFound';
 
 function App() {
   document.documentElement.classList.remove("nav-open");
@@ -28,18 +30,11 @@ function App() {
           <Main />
         </Route>
         <Route path="/404">
-        <div
-        className="page-header section-dark"
-        style={{
-          backgroundImage:
-            "url(" + require("./assets/img/lost-2.jpg").default + ")",
-        }}
-        >
-        <div className="title-brand">
-        <h1><b>404</b></h1>
-        <h3><b>Page Not Found</b></h3>
-        </div>
-        </div>
+          <PageNotFound />
+        </Route>
+        <Route path="/other">
+          <BasicHeader />
+          <Other />
         </Route>
         <Redirect to="/" />
       </Switch>

@@ -27,7 +27,36 @@
   border-radius: 12px 12px 0 0 !important;
 }
 
+.sm-button{
+  line-height: 0.75 !important;
+  padding: 0.25rem !important;
+  font-size: 12px !important;
+}
 
+.title-brand-2{
+  max-width: 730px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+  display: block; 
+  z-index: 1;
+}
+
+.presentation-title-2 {
+  font-size: 6em;
+  font-weight: 700;
+  z-index: 1;
+  margin: 0;
+  color: #FFFFFF;
+  background: #fbf8ec;
+  background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+  background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+  background: -ms-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+  background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
 
 /* .fa-linkedin:hover{
   color: #0e76a8;
@@ -88,9 +117,12 @@ html {
   }
 
 .row-entry{
-  background-color:#e6e6e64b;
+  background:#e6e6e64b;
   border-radius: 16px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: opacity 3s;
+  z-index:1;
+}
 
 .project-thumbnail{
   height: 150px;

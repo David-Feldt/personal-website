@@ -29,6 +29,9 @@ function ProfilePageHeader() {
         ref={pageHeader}
       >
         <div className="filter" />
+        <div className="title-brand-2">
+              <h1 className="presentation-title-2">Other</h1>
+        </div>
       </div>
     </>
   );

@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
@@ -110,11 +92,11 @@ function IndexNavbar() {
               </NavLink>
             </NavItem>
             <NavDropdown title={<><i className="nc-icon nc-book-bookmark" /> Other</>} id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Photography</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">Artwork</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Blog Posts</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">My Lists</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Contact</NavDropdown.Item>
+              <NavDropdown.Item href="/other">Photography</NavDropdown.Item>
+              <NavDropdown.Item href="/other">Artwork</NavDropdown.Item>
+              <NavDropdown.Item href="/other">Blog Posts</NavDropdown.Item>
+              <NavDropdown.Item href="/other">My Lists</NavDropdown.Item>
+              <NavDropdown.Item href="/other">Contact</NavDropdown.Item>
            </NavDropdown>
             <NavItem>
               <Button
