@@ -139,6 +139,9 @@ html {
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.education-thumbnail:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+}
 
 .ultra-align{
   text-align: center;
@@ -2283,7 +2286,9 @@ blockquote small {
   font-style: normal; }
 
 .text-muted {
-  color: #DDDDDD; }
+  color: #DDDDDD; 
+  line-height: 0.8;
+}
 
 .text-primary, .text-primary:hover {
   color: #51cbce !important; }

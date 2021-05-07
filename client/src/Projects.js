@@ -19,11 +19,12 @@ function Projects(){
                     <small><Badge pill variant="primary">React</Badge></small>
                     <Card.Text>
                     <h6>Personal Website</h6>
-                    <h6><small>Portfolio Website that has some of the things I've done</small></h6>
+                    <h6><small>May 2021</small></h6>
+                    <small className="text-muted">Portfolio Website that has some of the things I've done</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small><Button className='btn-outline-default btn-round sm-button'>Github</Button></small>
+                    <small><Button className='btn-outline-default btn-round sm-button' href="https://github.com/David-Feldt/personal-website">Github</Button></small>
                     </Card.Footer>
                     </Card>
                 </Col>
@@ -40,7 +41,8 @@ function Projects(){
                     <small><Badge pill variant="warning">FUSION 360</Badge></small>
                     <Card.Text>
                     <h6>Laptop Panel Monitor</h6>
-                    <h6><small>Built a side monitor by using a control board and recycling an old laptop panel</small></h6>
+                    <h6><small>March 2021</small></h6>
+                    <small className='text-muted'>Built a side monitor by using a control board and recycling an old laptop panel</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -60,11 +62,11 @@ function Projects(){
                     <small><Badge pill variant="danger">SOLIDWORKS</Badge></small>
                     <Card.Text>
                     <h6>HYPERLOOP INTERIOR</h6>
-                    <h6><small>Designed interior for mock hyperloop train</small></h6>
+                    <h6><small>February 2021</small></h6>
+                    <small className="text-muted">Designed and assembled interior for mock Hyperloop train</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
                     </Card.Footer>
                     </Card>
                 </Col>
@@ -81,7 +83,8 @@ function Projects(){
                     <small><Badge pill variant="default">DIY</Badge></small>
                     <Card.Text>
                     <h6>Wood-Working Projects</h6>
-                    <h6><small>1. Skateboard Rail <br /> 2. Dumbell Rack <br /> 3. Squat Rack</small></h6>
+                    <h6><small>WINTER 2021</small></h6>
+                    <small className='text-muted'>1. Skateboard Rail <br /> 2. Dumbell Rack <br /> 3. Squat Rack</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -95,18 +98,18 @@ function Projects(){
                         className='project-thumbnail'
                         style={{
                         backgroundImage:
-                        "url(" + require("./assets/img/machine-learning.jpg").default + ")",
+                        "url(" + require("./assets/img/3Dprinted.jpg").default + ")",
                         }}
                      ></Card.Header>
                     <Card.Body>
-                    <small><Badge pill variant="primary">React</Badge></small>
+                    <small><Badge pill variant="warning">Fusion 360</Badge></small>
                     <Card.Text>
-                    <h6>3D printed</h6>
-                    <h6><small>This is a wider card with supporting text below as a natural lead-in </small></h6>
+                    <h6>3D prints</h6>
+                    <h6><small>FALL 2020</small></h6>
+                    <small className="text-muted">1. Skateboard hook <br /> 2. Soldering spider <br /> 3. Key holder </small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
                     </Card.Footer>
                     </Card>
                 </Col>
@@ -120,14 +123,15 @@ function Projects(){
                         }}
                      ></Card.Header>
                     <Card.Body>
-                    <small><Badge pill variant="primary">Python</Badge> <Badge pill variant="default">Flask</Badge></small>
+                    <small><Badge pill variant="info">Python</Badge> <Badge pill variant="default">Flask</Badge></small>
                     <Card.Text>
                     <h6>Asteroid Simulator</h6>
-                    <h6><small>3D Solar System Simulaton that simulates Asteroids orbits</small></h6>
+                    <h6><small>November 2020</small></h6>
+                    <small className='text-muted'>3D solar system simulaton for predicting asteroids collisions and orbits</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small><Button className='btn-outline-default btn-round sm-button' href="https://github.com/David-Feldt/SchrodingherHack">Github</Button></small>
                     </Card.Footer>
                     </Card>
                 </Col>
@@ -137,18 +141,18 @@ function Projects(){
                         className='project-thumbnail'
                         style={{
                         backgroundImage:
-                        "url(" + require("./assets/img/Asteroid.png").default + ")",
+                        "url(" + require("./assets/img/Car.jpg").default + ")",
                         }}
                      ></Card.Header>
                     <Card.Body>
-                    <small><Badge pill variant="primary">Python</Badge> <Badge pill variant="default">Flask</Badge></small>
+                    <small><Badge pill variant="primary">Arduino</Badge> <Badge pill variant="warning">Fusion 360</Badge></small>
                     <Card.Text>
-                    <h6>Asteroid Simulator</h6>
-                    <h6><small>3D Solar System Simulaton that simulates Asteroids orbits</small></h6>
+                    <h6>IR Control Car</h6>
+                    <h6><small>SUMMER 2020</small></h6>
+                    <small className="text-muted">Arduino car controlled by old Airhogs remote</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
                     </Card.Footer>
                     </Card>
                 </Col>
@@ -158,18 +162,19 @@ function Projects(){
                         className='project-thumbnail'
                         style={{
                         backgroundImage:
-                        "url(" + require("./assets/img/Asteroid.png").default + ")",
+                        "url(" + require("./assets/img/tofacts.png").default + ")",
                         }}
                      ></Card.Header>
                     <Card.Body>
-                    <small><Badge pill variant="primary">Python</Badge> <Badge pill variant="default">Flask</Badge></small>
+                    <small><Badge pill variant="warning">JavaScript</Badge> <Badge pill variant="success">HTML/CSS</Badge></small>
                     <Card.Text>
-                    <h6>Asteroid Simulator</h6>
-                    <h6><small>3D Solar System Simulaton that simulates Asteroids orbits</small></h6>
+                    <h6>Fact Checking Website</h6>
+                    <h6><small>MAY 2020</small></h6>
+                    <small class='text-muted'>Fact validity checker search bar website</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small><Button className='btn-outline-info btn-round sm-button' href='https://devpost.com/David-Feldt'>DEVPOST</Button></small>
                     </Card.Footer>
                     </Card>
                 </Col>
@@ -179,18 +184,19 @@ function Projects(){
                         className='project-thumbnail'
                         style={{
                         backgroundImage:
-                        "url(" + require("./assets/img/Asteroid.png").default + ")",
+                        "url(" + require("./assets/img/make-uof.jpg").default + ")",
                         }}
                      ></Card.Header>
                     <Card.Body>
-                    <small><Badge pill variant="primary">Python</Badge> <Badge pill variant="default">Flask</Badge></small>
+                    <small><Badge pill variant="primary">Arduino</Badge> <Badge pill variant="danger">AWS</Badge></small>
                     <Card.Text>
-                    <h6>Asteroid Simulator</h6>
-                    <h6><small>3D Solar System Simulaton that simulates Asteroids orbits</small></h6>
+                    <h6>IOT mini-smarthome</h6>
+                    <h6><small>March 2020</small></h6>
+                    <small className='text-muted'>Wifi-enabled minature IoT demo smart home device</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small><Button className='btn-outline-info btn-round sm-button' href='https://devpost.com/David-Feldt'>DEVPOST</Button></small>
                     </Card.Footer>
                     </Card>
                 </Col>
@@ -200,33 +206,59 @@ function Projects(){
                         className='project-thumbnail'
                         style={{
                         backgroundImage:
-                        "url(" + require("./assets/img/Asteroid.png").default + ")",
+                        "url(" + require("./assets/img/mailbox.jpg").default + ")",
                         }}
                      ></Card.Header>
                     <Card.Body>
-                    <small><Badge pill variant="primary">Python</Badge> <Badge pill variant="default">Flask</Badge></small>
+                    <small><Badge pill variant="primary">Arduino</Badge></small>
                     <Card.Text>
-                    <h6>Asteroid Simulator</h6>
-                    <h6><small>3D Solar System Simulaton that simulates Asteroids orbits</small></h6>
+                    <h6>Smart Mailbox</h6>
+                    <h6><small>MARCH 2020</small></h6>
+                    <small>Concept of IoT Mailbox to protect against package theft</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small><Button className='btn-outline-info btn-round sm-button' href='https://devpost.com/David-Feldt'>DEVPOST</Button></small>
                     </Card.Footer>
                     </Card>
                 </Col>
                 <Col lg={3} md={4} xs={6} className="pb-2">
                     <Card lg={3} md={4} xs={6} >
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Header variant="top"
+                        className='project-thumbnail'
+                        style={{
+                        backgroundImage:
+                        "url(" + require("./assets/img/rover.jpg").default + ")",
+                        }}
+                     ></Card.Header>
                     <Card.Body>
-                    <Card.Title>Homemade Monitor</Card.Title>
+                    <small><Badge pill variant="primary">Arduino</Badge> <Badge pill variant="default">Google Cloud</Badge></small>
                     <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                    <h6>Inventory Rover</h6>
+                    <h6><small>JANurary 2020</small></h6>
+                    <small className='text-muted'>Moving rover with image recognition</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small><Button className='btn-outline-info btn-round sm-button' href='https://devpost.com/David-Feldt'>DEVPOST</Button></small>
+                    </Card.Footer>
+                    </Card>
+                    </Col>
+                    <Col lg={3} md={4} xs={6} className="pb-2">
+                    <Card lg={3} md={4} xs={6} >
+                    <Card.Header variant="top"
+                        className='project-thumbnail'
+                        style={{
+                        backgroundImage:
+                        "url(" + require("./assets/img/loading.jpg").default + ")",
+                        }}
+                     ></Card.Header>
+                    <Card.Body>
+                    <Card.Text>
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                    <h6>More Info Coming soon</h6>
                     </Card.Footer>
                     </Card>
                 </Col>

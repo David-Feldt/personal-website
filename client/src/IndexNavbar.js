@@ -1,6 +1,7 @@
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
+import resume from './assets/pdf/Resume_v8(ELECTRICAL).pdf'
 // reactstrap components
 import {
   Button,
@@ -102,8 +103,8 @@ function IndexNavbar() {
               <Button
                 className="btn-round btn-success"
                 color="danger"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-index-navbar"
-                target="_blank"
+                href={resume}
+                target='_blank'
               >
                 <i className="nc-icon nc-send"></i> Resume
               </Button>
