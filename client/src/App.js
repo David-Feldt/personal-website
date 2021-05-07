@@ -25,19 +25,19 @@ function App() {
     <IndexNavbar />
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/personal-website">
           <IndexHeader/>
           <Main />
         </Route>
-        <Route path="/404">
-          <PageNotFound />
-        </Route>
-        <Route path="/other">
+        <Route exact path="/personal-website/other">
           <BasicHeader />
           <Other />
         </Route>
-        <Redirect to="/" />
+        <Redirect to="/personal-website" />
       </Switch>
+      <Route>
+          <PageNotFound />
+        </Route>
         {/* <Home /> */}
     </BrowserRouter>
     <IndexFooter />

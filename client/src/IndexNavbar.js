@@ -51,7 +51,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/#home"
+            href="/personal-website/#home"
             >
             David Feldt
           </NavbarBrand>
@@ -73,31 +73,31 @@ function IndexNavbar() {
           <Nav>
             <NavItem>
               <NavLink
-                href="/#Work"
+                href="/personal-website#Work"
               >
                 <i className="nc-icon nc-briefcase-24" /> Work
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="/#Projects"
+                href="/personal-website#Projects"
               >
                 <i className="nc-icon nc-settings" /> Projects
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="/#Education"
+                href="/personal-website#Education"
               >
                 <i className="nc-icon nc-hat-3" /> Education
               </NavLink>
             </NavItem>
             <NavDropdown title={<><i className="nc-icon nc-book-bookmark" /> Other</>} id="basic-nav-dropdown">
-              <NavDropdown.Item href="/other">Photography</NavDropdown.Item>
-              <NavDropdown.Item href="/other">Artwork</NavDropdown.Item>
-              <NavDropdown.Item href="/other">Blog Posts</NavDropdown.Item>
-              <NavDropdown.Item href="/other">My Lists</NavDropdown.Item>
-              <NavDropdown.Item href="/other">Contact</NavDropdown.Item>
+              <NavDropdown.Item href="/personal-website/other">Photography</NavDropdown.Item>
+              <NavDropdown.Item href="/personal-website/other">Artwork</NavDropdown.Item>
+              <NavDropdown.Item href="/personal-website/other">Blog Posts</NavDropdown.Item>
+              <NavDropdown.Item href="/personal-website/other">My Lists</NavDropdown.Item>
+              <NavDropdown.Item href="/personal-website/other">Contact</NavDropdown.Item>
            </NavDropdown>
             <NavItem>
               <Button

@@ -235,11 +235,10 @@ html {
 
 .c {
   color : #00bfbf,
-
 }
 
 .codeBox-outside{
-  margin: 50px 0 0 0;
+  margin: 50px 0 50px 0;
   background-color: #000000;
   border-radius: 5px;
   border: 1px solid #333;
