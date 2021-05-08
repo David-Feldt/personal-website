@@ -13,14 +13,16 @@ function IndexFooter() {
             <ul>
               <li>
                 <a
-                  href="/"
+                  href="/personal-website/"
                 >
                   David Feldt
                 </a>
               </li>
               <li>
-                <a>                
+                <a>
+                <span className="copyright">
                   dsfeldt@gmail.com
+                  </span>
                 </a>
               </li>
             </ul>

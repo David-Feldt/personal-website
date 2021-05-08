@@ -120,7 +120,7 @@ function Education(){
                     <h6><small>Beginners guide to arduino programming</small> </h6>
                     <h6><small><em>December 2020</em></small></h6>
             </Col>
-            <Col>
+            <Col lg={3} md={4} xs={6} className="pb-2">
                 <div 
                 className="education-thumbnail" style={{
                 backgroundImage:

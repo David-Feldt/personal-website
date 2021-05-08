@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Main from "./homepage"
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
 import IndexNavbar from "./IndexNavbar";
 import IndexHeader from "./IndexHeader";
 import BasicHeader from "./BasicHeader";
@@ -23,23 +23,23 @@ function App() {
   return (
     <>
     <IndexNavbar />
-    <BrowserRouter>
+    <HashRouter basename='/personal-wesbite/#/'>
       <Switch>
-        <Route exact path="/personal-website">
-          <IndexHeader/>
-          <Main />
-        </Route>
-        <Route exact path="/personal-website/other">
+        <Route path="/other">
           <BasicHeader />
           <Other />
         </Route>
-        <Redirect to="/personal-website" />
-      </Switch>
-      <Route>
+        <Route path="/">
+          <IndexHeader/>
+          <Main />
+        </Route>
+        <Route>
           <PageNotFound />
         </Route>
+        <Redirect to="/" />
+      </Switch>
         {/* <Home /> */}
-    </BrowserRouter>
+    </HashRouter>
     <IndexFooter />
    </>
   );
