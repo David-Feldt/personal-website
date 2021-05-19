@@ -56,7 +56,7 @@ function IndexHeader() {
                 <span className="b"> MECHATRONICS ENGINEER </span>
                 <span className="y">/header/about </span>
                 <br /> 
-                $ <Typer textToType="Student at the University of Waterloo studying Mechatronics Engineering. Interests in IoT, Machine Learning and Robotics. Experience with Web development, Arduino, and CAD." 
+                $ <Typer textToType="Student at the University of Waterloo studying Mechatronics Engineering. Interests in IoT, Machine Learning and Robotics. Experience with Python, C++, and Arduino." 
                         delay={50} 
                         loop={false} /><span class="blinking">|</span>
               </code>
