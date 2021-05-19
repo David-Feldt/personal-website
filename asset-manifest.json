@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.9ccba4a3.chunk.css",
-    "main.js": "/personal-website/static/js/main.239bc153.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.239bc153.chunk.js.map",
+    "main.js": "/personal-website/static/js/main.918ed47a.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.918ed47a.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.7f55879c.js",
     "runtime-main.js.map": "/personal-website/static/js/runtime-main.7f55879c.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/personal-website/static/css/2.4c97ca4f.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/Car.jpg": "/personal-website/static/media/Car.940b5c54.jpg",
     "static/media/Lean_Payments.png": "/personal-website/static/media/Lean_Payments.371a7a71.png",
     "static/media/Monitor.jpg": "/personal-website/static/media/Monitor.f61447a7.jpg",
-    "static/media/Resume_v8(ELECTRICAL).b2fa7cd8.pdf": "/personal-website/static/media/Resume_v8(ELECTRICAL).b2fa7cd8.pdf",
+    "static/media/Resume_v10(electrical).40f85564.pdf": "/personal-website/static/media/Resume_v10(electrical).40f85564.pdf",
     "static/media/TQI logo transparent.JPG": "/personal-website/static/media/TQI logo transparent.2f7df6b1.JPG",
     "static/media/University_of_Waterloo.png": "/personal-website/static/media/University_of_Waterloo.4c8baa43.png",
     "static/media/Website.PNG": "/personal-website/static/media/Website.4b18e7cb.PNG",
@@ -46,6 +46,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.92d3c74d.chunk.js",
     "static/css/main.9ccba4a3.chunk.css",
-    "static/js/main.239bc153.chunk.js"
+    "static/js/main.918ed47a.chunk.js"
   ]
 }
