@@ -8,20 +8,20 @@ function Main(){
     return(
     <>
     <div className="main">
-      <div class="section section-lightblue" id="Work">
+      <div className="section section-lightblue" id="Work">
         <Container>
           {/* <!-- WORK --> */}
           <Work />
 
         </Container>              
       </div>
-      <div class="section section-dark" id="Projects">
+      <div className="section section-dark" id="Projects">
         <Container >
         {/* <!-- PROJECTS --> */}
         <Projects />
         </Container>
       </div>
-      <div class="section section-lightpurple" id="Education">
+      <div className="section section-lightpurple" id="Education">
         <Container>
         {/* <!-- other --> */}
         <Education />

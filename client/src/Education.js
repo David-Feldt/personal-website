@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 function Education(){
     return(
-        <div class="" >
+        <div className="" >
         <h1 className='title title-section'>EDUCATION</h1>
         <Row className="p-2 my-4 row-entry">
             <Col xs={3}>

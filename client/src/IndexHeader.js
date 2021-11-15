@@ -46,9 +46,9 @@ function IndexHeader() {
             <Col className="ml-auto mr-auto" lg="6" >
             <div className="codeBox-outside">
               <div className="codeBox-header">
-                <span class="terminal-circle red"></span>
-                <span class="terminal-circle yellow"></span>
-                <span class="terminal-circle green"></span>
+                <span className="terminal-circle red"></span>
+                <span className="terminal-circle yellow"></span>
+                <span className="terminal-circle green"></span>
               </div>
               <div className="codeBox-body">
               <code>
@@ -58,7 +58,7 @@ function IndexHeader() {
                 <br /> 
                 $ <Typer textToType="Student at the University of Waterloo studying Mechatronics Engineering. Interests in IoT, Machine Learning and Robotics. Experience with Python, C++, and Arduino." 
                         delay={50} 
-                        loop={false} /><span class="blinking">|</span>
+                        loop={false} /><span className="blinking">|</span>
               </code>
               </div>
             </div>

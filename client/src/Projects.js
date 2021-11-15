@@ -1,11 +1,63 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import {Row, Col , Card, CardDeck , Badge , Button} from 'react-bootstrap'
 
+
+
+function createProject(project){
+    console.log(project)
+    if(project){
+        return(
+            <Col lg={3} md={4} xs={6} className="pb-2">
+            <Card lg={3} md={4} xs={6} >
+            <Card.Header variant="top"
+                className='project-thumbnail'
+                style={{
+                backgroundImage:
+                `url(${project.file})`,
+                }}
+             ></Card.Header>
+            <Card.Body>
+            <small><Badge pill variant="primary">React</Badge></small>
+            <Card.Text>
+            <h6>{project.title}</h6>
+            <h6><small>May 2021</small></h6>
+            <small className="text-muted">{project.description}</small>
+            </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+            <small><Button className='btn-outline-default btn-round sm-button' href="https://github.com/David-Feldt/personal-website">Github</Button></small>
+            </Card.Footer>
+            </Card>
+        </Col>)
+    }
+    else{
+        return(<p>Loading</p>)
+    }
+    
+}
+
 function Projects(){
+    const [loading, setLoading] = useState(true)
+    const [projects, setProjects] = useState([])
+    const getProjects = async() => {
+        setLoading(true)
+        const res = await fetch('http://localhost:5050/projects')
+        const data = await res.json()
+        setLoading(false);
+        setProjects(data);
+        //console.log(projects)
+    }
+    useEffect(() => {
+        getProjects()
+        console.log(projects)
+    },[])
     return(
-        <div class="">
+        <div className="">
             <h1 className='title title-section'>PROJECTS</h1>
             <Row>
+            {projects.map((item,i) => (
+                createProject(item)
+            ))}
                 <Col lg={3} md={4} xs={6} className="pb-2">
                     <Card lg={3} md={4} xs={6} >
                     <Card.Header variant="top"
@@ -170,7 +222,7 @@ function Projects(){
                     <Card.Text>
                     <h6>Fact Checking Website</h6>
                     <h6><small>MAY 2020</small></h6>
-                    <small class='text-muted'>Fact validity checker search bar website</small>
+                    <small className='text-muted'>Fact validity checker search bar website</small>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
