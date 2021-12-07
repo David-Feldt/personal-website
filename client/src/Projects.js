@@ -4,8 +4,17 @@ import {Row, Col , Card, CardDeck , Badge , Button} from 'react-bootstrap'
 
 
 function createProject(project){
-    console.log(project)
+    //console.log(project)
+    const months = [
+        "January", "February", 
+        "March", "April", "May", 
+        "June", "July", "August",
+        "September", "October", 
+        "November", "December"
+    ];
     if(project){
+        let date = new Date(project.date)
+        console.log(date.getMonth())
         return(
             <Col lg={3} md={4} xs={6} className="pb-2">
             <Card lg={3} md={4} xs={6} >
@@ -17,10 +26,10 @@ function createProject(project){
                 }}
              ></Card.Header>
             <Card.Body>
-            <small><Badge pill variant="primary">React</Badge></small>
+            <small><Badge pill variant="primary">{project.using[0].name}</Badge></small>
             <Card.Text>
             <h6>{project.title}</h6>
-            <h6><small>May 2021</small></h6>
+            <h6><small>{months[date.getMonth()]} {date.getFullYear()}</small></h6>
             <small className="text-muted">{project.description}</small>
             </Card.Text>
             </Card.Body>

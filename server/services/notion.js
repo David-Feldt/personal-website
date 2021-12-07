@@ -29,7 +29,8 @@ module.exports = async function getProjects(){
       title: item.properties.Name.title[0].plain_text,
       using: item.properties.Using.multi_select,
       file: item.properties.File.files[0].file.url,
-      description:item.properties.Description.rich_text[0].plain_text
+      description:item.properties.Description.rich_text[0].plain_text,
+      date: item.properties['Final Date' ].date.start,
     })
    })
    return responceArray
