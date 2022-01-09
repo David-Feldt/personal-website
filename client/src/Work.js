@@ -11,6 +11,31 @@ function Work(){
                 <img 
                 className="icon-logo-2 align-items-center"
                 src={
+                    require("./assets/img/zebra.png")
+                    .default
+                    }>
+
+                </img>
+                </Col>
+                <Col xs={8}>
+                <h3><b>Zebra Robotics - Robotics Instructor</b></h3>
+                <p><b>Fall 2021 | Missisauga, ON</b></p>
+                <p>
+                <li>
+                Coached youth on Lego EV3 robotics using spike-based programming for robot navigation
+                </li>
+                <li>
+                Instructed youth on Unity using C# for 2D game development
+                </li>
+                </p>
+                <br />
+                </Col>
+            </Row>
+            <Row>
+                <Col xs={4}>
+                <img 
+                className="icon-logo-2 align-items-center"
+                src={
                     require("./assets/img/Lean_Payments.png")
                     .default
                     }>

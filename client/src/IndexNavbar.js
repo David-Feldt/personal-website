@@ -1,7 +1,7 @@
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-import resume from './assets/pdf/Resume_v10(electrical).pdf'
+import resume from './assets/pdf/Resume_v12(general-short).pdf'
 // reactstrap components
 import {
   Button,

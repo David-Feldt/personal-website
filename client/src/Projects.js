@@ -12,6 +12,48 @@ function Projects(){
                         className='project-thumbnail'
                         style={{
                         backgroundImage:
+                        "url(" + require("./assets/img/ultrasonic.jpg").default + ")",
+                        }}
+                     ></Card.Header>
+                    <Card.Body>
+                    <small><Badge pill variant="primary">Arduino</Badge> <Badge pill variant="warning">Fusion 360</Badge></small>
+                    <Card.Text>
+                    <h6>Ultrasonic Car</h6>
+                    <h6><small>October 2021</small></h6>
+                    <small className="text-muted">Ultrasonic controlled mini vehicle</small>
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                    </Card.Footer>
+                    </Card>
+                </Col>
+                 <Col lg={3} md={4} xs={6} className="pb-2">
+                    <Card lg={3} md={4} xs={6} >
+                    <Card.Header variant="top"
+                        className='project-thumbnail'
+                        style={{
+                        backgroundImage:
+                        "url(" + require("./assets/img/cnc2.jpg").default + ")",
+                        }}
+                     ></Card.Header>
+                    <Card.Body>
+                    <small><Badge pill variant="primary">Arduino</Badge></small>
+                    <Card.Text>
+                    <h6>CNC Plotter</h6>
+                    <h6><small>September 2021</small></h6>
+                    <small className="text-muted">Built CNC plotter using stepper motors from CD drives</small>
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                    </Card.Footer>
+                    </Card>
+                </Col>
+                <Col lg={3} md={4} xs={6} className="pb-2">
+                    <Card lg={3} md={4} xs={6} >
+                    <Card.Header variant="top"
+                        className='project-thumbnail'
+                        style={{
+                        backgroundImage:
                         "url(" + require("./assets/img/Website.PNG").default + ")",
                         }}
                      ></Card.Header>
