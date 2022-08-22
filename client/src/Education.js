@@ -6,7 +6,7 @@ function Education(){
     return(
         <div class="" >
         <h1 className='title title-section'>EDUCATION</h1>
-        <Row className="p-2 my-4 row-entry">
+        <Row className="p-4 my-4 row-entry">
             <Col xs={3}>
                 <img 
                 className="icon-logo align-items-center"
@@ -28,7 +28,7 @@ function Education(){
                 </a>
             </Col>
         </Row>
-        <Row className="my-4 p-2 row-entry">
+        <Row className="my-4 p-4 row-entry">
             <Col xs={3}>
                 <img 
                 className="icon-logo align-items-center"

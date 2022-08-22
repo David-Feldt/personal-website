@@ -11,6 +11,37 @@ function Work(){
                 <img 
                 className="icon-logo-2 align-items-center"
                 src={
+                    require("./assets/img/lightster.webp")
+                    .default
+                    }>
+
+                </img>
+                </Col>
+                <Col xs={8}>
+                <h3><b>Lightster - Software Engineer</b></h3>
+                <p><b>Summer 2022 | Toronto, ON</b></p>
+                <p>
+                <li>
+                Developed recommendation algorithm to connect users with companies based on targeted criteria's
+                </li>
+                <li>
+                Constructed automated email service to send notifications to increase user engagement
+                </li>
+                <li>
+                Generated database migration script to reorganize old data into production usable structure
+                </li>
+                <li>
+                Integrated Elasticsearch into user communities and criteria's search bar to increase result recall 
+                </li>
+                </p>
+                <br />
+                </Col>
+            </Row>
+            <Row>
+                <Col xs={4}>
+                <img 
+                className="icon-logo-2 align-items-center"
+                src={
                     require("./assets/img/zebra.png")
                     .default
                     }>

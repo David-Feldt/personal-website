@@ -25,10 +25,6 @@ function App() {
     <IndexNavbar />
     <HashRouter basename='/personal-wesbite/#/'>
       <Switch>
-        <Route path="/other">
-          <BasicHeader />
-          <Other />
-        </Route>
         <Route path="/">
           <IndexHeader/>
           <Main />

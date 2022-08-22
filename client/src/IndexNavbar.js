@@ -92,13 +92,6 @@ function IndexNavbar() {
                 <i className="nc-icon nc-hat-3" /> Education
               </NavLink>
             </NavItem>
-            <NavDropdown title={<><i className="nc-icon nc-book-bookmark" /> Other</>} id="basic-nav-dropdown">
-              <NavDropdown.Item href="/personal-website/#other">Photography</NavDropdown.Item>
-              <NavDropdown.Item href="/personal-website/#other">Artwork</NavDropdown.Item>
-              <NavDropdown.Item href="/personal-website/#other">Blog Posts</NavDropdown.Item>
-              <NavDropdown.Item href="/personal-website/#other">My Lists</NavDropdown.Item>
-              <NavDropdown.Item href="/personal-website/#other">Contact</NavDropdown.Item>
-           </NavDropdown>
             <NavItem>
               <Button
                 className="btn-round btn-success"

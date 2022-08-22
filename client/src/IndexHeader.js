@@ -32,7 +32,7 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("./assets/img/lake-picture.jpg").default + ")",
+            "url(" + require("./assets/img/lake-picture2.jpg").default + ")",
         }}
         id="home"
       >
@@ -56,7 +56,7 @@ function IndexHeader() {
                 <span className="b"> MECHATRONICS ENGINEER </span>
                 <span className="y">/header/about </span>
                 <br /> 
-                $ <Typer textToType="Student at the University of Waterloo studying Mechatronics Engineering. Interests in IoT, Machine Learning and Robotics. Experience with Python, C++, and Arduino." 
+                $ <Typer textToType="Student at the University of Waterloo studying Mechatronics Engineering. Interests in IoT and Machine Learning. Experience with Python and C++." 
                         delay={50} 
                         loop={false} /><span class="blinking">|</span>
               </code>
@@ -76,10 +76,6 @@ function IndexHeader() {
         <div className="category category-absolute my-icon">
           <a href="https://www.linkedin.com/in/david--feldt/"><i className="fa fa-linkedin " /></a>
           <a href="https://github.com/David-Feldt"><i className="fa fa-github " /></a>
-          <a href="https://www.facebook.com/david.feldt.71"><i className="fa fa-facebook" /></a>
-          <a href="https://www.instagram.com/davids_hobbies/"><i className="fa fa-instagram " /></a>
-          <a href="https://www.youtube.com/channel/UCC-w1gonicQ723YnfomRobg/featured"><i className="fa fa-youtube " /></a>
-          <a href="https://open.spotify.com/user/ozwrfiq5lf5cimom3tt27r4v9?si=164254063f474d08"><i className="fa fa-spotify " /></a>
         </div>
       </div>
     </>
